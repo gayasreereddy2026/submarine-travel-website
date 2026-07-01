@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ocean Explorer</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial;
+        background: linear-gradient(to bottom, #66ccff, #ccefff);
+    }
+
+    /* Navbar */
+    .navbar {
+        background: #00334d;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-weight: bold;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .box {
+        background :white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .img-box {
+        width: 30%;
+        height: 120px;
+        background: #b3e6ff;
+        display: inline-block;
+        text-align: center;
+        line-height: 120px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .review {
+        margin-bottom: 15px;
+    }
+
+    .rating {
+        font-weight: bold;
+    }
+
+    input, textarea {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Packages</a>
+    <a href="#">Gallery</a>
+    <a href="#">Booking</a>
+    <a href="#">Contact</a>
+</div>
+
+<h1>Ocean Explorer</h1>
+
+<div class="container">
+
+    <!-- Gallery -->
+    <div class="box">
+        <h2>Gallery</h2>
+
+        <div class="img-box">Submarine</div>
+        <div class="img-box">Ocean View</div>
+        <div class="img-box">Sea Life</div>
+
+    </div>
+
+    <!-- Reviews (IMPORTANT FIXED SECTION) -->
+    <div class="box">
+        <h2>Customer Ratings</h2>
+
+        <div class="review">
+            <b>Balaji</b><br>
+            <div class="rating">Rating: 5/5</div>
+            Wonderful underwater experience by Ocean Explorer.
+        </div>
+
+        <hr>
+
+        <div class="review">
+            <b>Bhavani</b><br>
+            <div class="rating">Rating: 4/5</div>
+            Very good experience and enjoyed the ocean trip.
+        </div>
+
+        <hr>
+
+        <h3>Give Your Review</h3>
+
+        <form>
+            Name:
+            <input type="text">
+
+            Rating (out of 5):
+            <input type="number" min="1" max="5">
+
+            Comment:
+            <textarea rows="4"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>

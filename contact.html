@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ocean Explorer - Contact</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #001a2e;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #002b4d;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* CENTER BOX */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+/* CONTACT BOX */
+.box {
+  width: 320px;
+  padding: 20px;
+  background: #003a66;
+  border-radius: 10px;
+}
+
+/* INPUT */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #00d9ff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* THANK YOU */
+.thankyou {
+  margin-top: 10px;
+  text-align: center;
+  color: #00d9ff;
+  font-weight: bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h1>Ocean Explorer</h1>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="ratings.html">Ratings</a>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="container">
+  <div class="box">
+
+    <h2 style="text-align:center;">Contact Us</h2>
+
+    <form>
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea rows="4" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <p class="thankyou">
+      Thank you for contacting Ocean Explorer team
+    </p>
+
+  </div>
+</div>
+
+</body>
+</html>
